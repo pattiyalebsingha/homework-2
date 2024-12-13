@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    background-image: linear-gradient(to bottom, #000000bb, #00000022, #000000bb), url(https://i.redd.it/zjgs096khv591.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 800px;
+
+}
+
+.lang {
+    /* justify-content: flex-end; */
+    width: 70px;
+    height: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: black;
+    color: #FFFFFF;
+}
+
+.signin {
+    width: 70px;
+    height: 30px;
+    margin-top: 20px;
+    /* background-color: red; */
+}
+
+h1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 90px;
+}
+
+h3 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="submit"]{
+    background-color: red;
+    color: white;
+}
+input[type="button"]{
+    background-color: red;
+    width: 60px;
+    height: 30px;
+    color: white;
+}
+input[type="text"]{
+    background-color: black;
+    color: white;
+}
